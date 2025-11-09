@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Prefab PoolName="Background_Pool">
+	<ListOfComponents>
+		<Component ComponentName="struct C_Transform2D">
+			<Position X="0.000000" Y="0.000000" />
+			<Rotation Value="0.000000" />
+			<Scale X="1.000000" Y="1.000000" />
+		</Component>
+		<Component ComponentName="struct C_TextureRenderer">
+			<Visible Value="True" />
+			<TextureFilePath Value="Assets/Sprites/T_Background.png" />
+			<TintColor X="255.000000" Y="255.000000" Z="255.000000" W="255.000000" />
+			<TextureCoordinates>
+				<u0 Value="0.000000" />
+				<u1 Value="1.000000" />
+				<v0 Value="0.000000" />
+				<v1 Value="1.000000" />
+			</TextureCoordinates>
+		</Component>
+		<Component ComponentName="struct GameScoreCounter">
+			<Scores />
+		</Component>
+	</ListOfComponents>
+</Prefab>

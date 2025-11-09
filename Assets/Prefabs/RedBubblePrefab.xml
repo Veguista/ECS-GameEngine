@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Prefab PoolName="Bubble_Pool">
+	<ListOfComponents>
+		<Component ComponentName="struct C_Transform2D">
+			<Position X="100.000000" Y="100.000000" />
+			<Rotation Value="0.000000" />
+			<Scale X="1.000000" Y="1.000000" />
+		</Component>
+		<Component ComponentName="struct C_TextureRenderer">
+			<Visible Value="True" />
+			<TextureFilePath Value="Assets/Sprites/T_RedBubble.png" />
+			<TintColor X="255.000000" Y="255.000000" Z="255.000000" W="255.000000" />
+			<TextureCoordinates>
+				<u0 Value="0.000000" />
+				<u1 Value="1.000000" />
+				<v0 Value="0.000000" />
+				<v1 Value="1.000000" />
+			</TextureCoordinates>
+		</Component>
+		<Component ComponentName="struct C_Collider2D">
+			<CollisionType Value="3" />
+			<Dimensions X="25.000000" Y="25.000000" />
+			<Offset X="12.500000" Y="12.500000" />
+		</Component>
+		<Component ComponentName="struct C_Rigidbody2D">
+			<Velocity X="60.000000" Y="0.000000" />
+			<DragScale Value="0.000000" />
+			<GravityScale Value="7.00000" />
+		</Component>
+		<Component ComponentName="struct C_BallController" />
+	</ListOfComponents>
+</Prefab>

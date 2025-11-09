@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Level>
+	<PrefabList>
+		<Prefab Path="Assets/Prefabs/MainCharacterPrefab.xml" />
+		<Prefab Path="Assets/Prefabs/BackgroundPrefab.xml" />
+	</PrefabList>
+</Level>

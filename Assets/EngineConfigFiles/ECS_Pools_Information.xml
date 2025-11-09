@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<PoolList>
+	<EntityPool PoolName="Background_Pool" PoolID="0">
+		<Components>
+			<ECS_Component ComponentName="struct C_Transform2D" ComponentIndex="0" />
+			<ECS_Component ComponentName="struct C_TextureRenderer" ComponentIndex="1" />
+			<ECS_Component ComponentName="struct C_Collider2D" ComponentIndex="2" />
+			<ECS_Component ComponentName="struct BubbleSpawner" ComponentIndex="3" />
+			<ECS_Component ComponentName="struct GameScoreCounter" ComponentIndex="4" />
+		</Components>
+	</EntityPool>
+	<EntityPool PoolName="Bubble_Pool" PoolID="1">
+		<Components>
+			<ECS_Component ComponentName="struct C_Transform2D" ComponentIndex="0" />
+			<ECS_Component ComponentName="struct C_TextureRenderer" ComponentIndex="1" />
+			<ECS_Component ComponentName="struct C_Collider2D" ComponentIndex="2" />
+			<ECS_Component ComponentName="struct C_Rigidbody2D" ComponentIndex="3" />
+			<ECS_Component ComponentName="struct C_BallController" ComponentIndex="4" />
+		</Components>
+	</EntityPool>
+	<EntityPool PoolName="Player_Pool" PoolID="2">
+		<Components>
+			<ECS_Component ComponentName="struct C_Transform2D" ComponentIndex="0" />
+			<ECS_Component ComponentName="struct C_TextureRenderer" ComponentIndex="1" />
+			<ECS_Component ComponentName="struct C_PlayerController" ComponentIndex="2" />
+			<ECS_Component ComponentName="struct C_Collider2D" ComponentIndex="3" />
+			<ECS_Component ComponentName="struct C_Rigidbody2D" ComponentIndex="4" />
+		</Components>
+	</EntityPool>
+</PoolList>
